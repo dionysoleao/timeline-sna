@@ -1,0 +1,9 @@
+/* Shadow of Images */
+
+.tl-slide .tl-media img {
+    box-shadow: none;
+}
+
+.tl-media-shadow {
+    box-shadow: none;
+}

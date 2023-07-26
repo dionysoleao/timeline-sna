@@ -1,0 +1,342 @@
+{
+    "events": [
+        {
+            "media": {
+                "url": "/img/1942-1.jpg"
+            },
+            "start_date": {
+                "month": "1",
+                "day": "14",
+                "year": "1942"
+            },
+            "display_date":"1942",
+            "text": {
+                "headline": "14 à 26 de janeiro",
+                "text":"Criação da Fundação da Associação Profissional dos Aeronautas do Distrito Federal"
+            }
+        },
+        {
+            "media": {
+                "url": "/img/1946-12.jpg"
+            },
+            "start_date": {
+                "month": "12",
+                "day": "9",
+                "year": "1946"
+            },
+            "display_date":"1946",
+            "text": {
+                "headline": "9 de dezembro",
+                "text":"o Ministério do Trabalho reconhece a Associação Profissional dos Aeronautas do Distrito Federal como Sindicato dos Aeronautas do Rio de Janeiro"
+            }
+        },
+        {
+            "start_date": {
+                "month": "3",
+                "day": "31",
+                "year": "1947"
+            },
+            "display_date":"1947",
+            "text": {
+                "headline": "31 de março",
+                "text": "O Ministério do Trabalho estendeu a base territorial do sindicato para todo território nacional. Passa a denominar-se Sindicato Nacional dos Aeronautas"
+            }
+        },
+        {
+            "media": {
+                "url": "/img/1958-8.jpg"
+            },
+            "start_date": {
+                "month":"8",
+                "year": "1958"
+            },
+            "display_date":"1958",
+            "text": {
+                "headline": "Agosto",
+                "text": "Primeiro Congresso Nacional dos Trabalhadores da Aviação Comercial Brasileira em que foram debatidas questões profissionais dos aeronautas e aeroviários e a situação da aviação comercial brasileira"
+            }
+        },
+        {
+            "media": {
+                "url": "/img/1958-12.jpg"
+            },
+            "start_date": {
+                "day":"21",
+                "month":"12",
+                "year": "1958"
+            },
+            "display_date":"1958",
+            "text": {
+                "headline": "21 de dezembro",
+                "text": "Sancionada a aposentadoria especial por idade de 65 para 45 anos e o tempo de serviço de 35 para 25 anos"
+            }
+        },
+        {
+            "media": {
+                "url": "/img/1961-5.jpg"
+            },
+            "start_date": {
+                "day":"29",
+                "month":"5",
+                "year": "1961"
+            },
+            "display_date":"1961",
+            "text": {
+                "headline": "29 de maio",
+                "text": "Primeira Regulamentação Profissional da categoria profissional aeronauta"
+            }
+        },
+        {
+            "media": {
+                "url": "/img/1964-4.jpg"
+            },
+            "start_date": {
+                "day":"2",
+                "month":"4",
+                "year": "1964"
+            },
+            "display_date":"1964",
+            "text": {
+                "headline": "2 de abril",
+                "text": "A diretoria eleita democraticamente é destituída, sendo substituída por interventores da Ditadura Militar"
+            }
+        },
+        {
+            "start_date": {
+                "month":"8",
+                "year": "1966"
+            },
+            "display_date":"1966",
+            "text": {
+                "headline": "Agosto de 1966",
+                "text": "Eleita a primeira Diretoria após a intervenção militar"
+            }
+        },
+        {
+            "media": {
+                "url": "/img/1979.jpg"
+            },
+            "start_date": {
+                "year": "1979"
+            },
+            "text": {
+                "headline": "2 de abril",
+                "text": "A diretoria eleita democraticamente é destituída, sendo substituída por interventores da Ditadura Militar"
+            }
+        },
+        {
+            "start_date": {
+                "day":"5",
+                "month":"4",
+                "year": "1984"
+            },
+            "display_date":"1984",
+            "text": {
+                "headline": "5 de abril",
+                "text": "Nova regulamentação profissional"
+            }
+        },
+        {
+            "media": {
+                "url": "/img/1984-11.jpg"
+            },
+            "start_date": {
+                "day":"13",
+                "month":"11",
+                "year": "1984"
+            },
+            "display_date":"1984",
+            "text": {
+                "headline": "13 a 22 de novembro",
+                "text": "Tripulantes de helicópteros entram em greve e após intervenção do TRT conquistam 100% do INPC entre outras reivindicações"
+            }
+        },
+        {
+            "media": {
+                "url": "/img/1985-4.jpg"
+            },
+            "start_date": {
+                "day":"30",
+                "month":"4",
+                "year": "1985"
+            },
+            "display_date":"1985",
+            "text": {
+                "headline": "30 de abril",
+                "text": "Aeronautas e aeroviários paralisam 90% das linhas comerciais do país por 4 dias e 7 horas. Com intervenção das empresas, governo e aeronáutica, os aeronautas decidiram em assembleia cessar a greve, mas com suas reivindicações parcialmente alcançadas"
+            }
+        },
+        {
+            "media": {
+                "url": "/img/1987-12.jpg"
+            },
+            "start_date": {
+                "day":"12",
+                "month":"12",
+                "year": "1987"
+            },
+            "display_date":"1987",
+            "text": {
+                "headline": "12 de dezembro",
+                "text": "Greve em meio às discussões para o Acordo Coletivo"
+            }
+        },
+        {
+            "media": {
+                "url": "/img/1988-2.jpg"
+            },
+            "start_date": {
+                "day":"12",
+                "month":"2",
+                "year": "1988"
+            },
+            "display_date":"1988",
+            "text": {
+                "headline": "12 de fevereiro",
+                "text": "Como continuidade do movimento de 1987, a categoria declarou greve nos 4 dias de carnaval"
+            }
+        },
+        {
+            "media": {
+                "url": "/img/1999-5.jpg"
+            },
+            "start_date": {
+                "day":"31",
+                "month":"5",
+                "year": "1999"
+            },
+            "display_date":"1999",
+            "text": {
+                "headline": "31 de maio",
+                "text": "Manifestação contra a portaria do DAC que reduzia número de comissários a bordo. A mobilização dos comissários foi vitoriosa"
+            }
+        },
+        {
+            "media": {
+                "url": "/img/2015-1.jpg"
+            },
+            "start_date": {
+                "day":"22",
+                "month":"1",
+                "year": "2015"
+            },
+            "display_date":"2015",
+            "text": {
+                "headline": "22 de janeiro",
+                "text": "Paralisação do trabalho reivindicando garantia de escalas justas, melhores condições de trabalho e segurança de voo"
+            }
+        },
+        {
+            "media": {
+                "url": "/img/2016-2.jpg"
+            },
+            "start_date": {
+                "day":"3",
+                "month":"2",
+                "year": "2016"
+            },
+            "display_date":"2016",
+            "text": {
+                "headline": "3 de fevereiro",
+                "text": "Nova paralisação com as mesmas reivindicações 1984 da anterior"
+            }
+        },
+        {
+            "media": {
+                "url": "/img/2017-8.jpg"
+            },
+            "start_date": {
+                "day":"28",
+                "month":"8",
+                "year": "2017"
+            },
+            "display_date":"2017",
+            "text": {
+                "headline": "28 de agosto",
+                "text": "Paralisação do trabalho reivindicando garantia de escalas justas, melhores condições de trabalho e segurança de voo"
+            }
+        },
+        {
+            "media": {
+                "url": "/img/2017-11.jpg"
+            },
+            "start_date": {
+                "month":"11",
+                "year": "2017"
+            },
+            "display_date":"2017",
+            "text": {
+                "headline": "Novembro",
+                "text": "Aeronautas são excluídos da possibilidade de trabalho intermitente na Reforma Trabalhista"
+            }
+        },
+        {
+            "start_date": {
+                "day":"19",
+                "month":"10",
+                "year": "2018"
+            },
+            "display_date":"2018",
+            "text": {
+                "headline": "19 de outubro",
+                "text": "Restabelecimento da concessão do benefício previdenciário a todas as aeronautas grávidas"
+            }
+        },
+        {
+            "media": {
+                "url": "/img/2019-5.jpg"
+            },
+            "start_date": {
+                "day":"17",
+                "month":"5",
+                "year": "2019"
+            },
+            "display_date":"2019",
+            "text": {
+                "headline": "17 de maio",
+                "text": "Tripulantes da Avianca paralisam as atividades por rescisões e segurança de voo"
+            }
+        },
+        {
+            "start_date": {
+                "day":"19",
+                "month":"10",
+                "year": "2020"
+            },
+            "display_date":"2020",
+            "text": {
+                "headline": "19 de outubro",
+                "text": "Mais de 60 ACTs firmados para garantir a estabilidade dos aeronautas durante a crise provocada pela pandemia de Covid-19"
+            }
+        },
+        {
+            "media": {
+                "url": "/img/2021-11.jpg"
+            },
+            "start_date": {
+                "day":"24",
+                "month":"11",
+                "year": "2021"
+            },
+            "display_date":"2021",
+            "text": {
+                "headline": "24 de novembro",
+                "text": "Aeronautas votam pela deflagração de greve, na rua em frente à sede do SNA, durante negociações para renovação da CCT regular"
+            }
+        },
+        {
+            "media": {
+                "url": "/img/2022-1.jpg"
+            },
+            "start_date": {
+                "month":"1",
+                "year": "2022"
+            },
+            "display_date":"2022",
+            "text": {
+                "headline": "Janeiro",
+                "text": "O Sindicato Nacional dos Aeronautas celebra com orgulho seus 80 anos de história"
+            }
+        }
+    ]
+}
