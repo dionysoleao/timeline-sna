@@ -7,3 +7,8 @@
 .tl-media-shadow {
     box-shadow: none;
 }
+
+.swiper {
+    width: 600px;
+    height: 300px;
+}

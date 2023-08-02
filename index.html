@@ -7,12 +7,111 @@
 
     <link rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
     <link rel="stylesheet" href="custom.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/locale/pt-br.js"></script>
+    <script src="https://visjs.github.io/vis-timeline/standalone/umd/vis-timeline-graph2d.min.js"></script>
 
     <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
 </head>
 <body>
 
     <div id='timeline-embed' style="width: 100%; height: 600px"></div>
+    
+    <!-- Slider main container -->
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">Slide 1</div>
+            <div class="swiper-slide">Slide 2</div>
+            <div class="swiper-slide">Slide 3</div>
+            <!-- Add more slides as needed -->
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+    
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+
+    <div id="visualization"></div>
+
+    <script>
+
+        
+
+        const swiper = new Swiper('.swiper', {
+            // Optional parameters
+            direction: 'horizontal',
+            loop: false,
+
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+            },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+
+        // DOM element where the Timeline will be attached
+        var container = document.getElementById("visualization");
+
+        // Create a DataSet (allows two way data-binding)
+        var items = new vis.DataSet([
+            { id: 1, content: "item 1", start: "2014-04-20" },
+            { id: 2, content: "item 2", start: "2014-04-14" },
+            { id: 3, content: "item 3", start: "2014-04-18" },
+            { id: 4, content: "item 4", start: "2014-04-16", end: "2014-04-19" },
+            { id: 5, content: "item 5", start: "2014-04-25" },
+            { id: 6, content: "item 6", start: "2014-04-27", type: "point" },
+        ]);
+
+
+        // Configuration for the Timeline
+        var options = {
+            showCurrentTime: true,
+            locale: "pt-br"
+        };
+
+        // Create a Timeline
+        var timeline = new vis.Timeline(container, items, options);
+
+        // Adicionar um evento de clique aos itens da linha do tempo
+    timeline.on("click", function (event) {
+        if (event.item) {
+            var clickedItemId = event.item;
+            var clickedItem = items.get(clickedItemId);
+            var slideIndex = clickedItem.id - 1; // O índice dos slides começa em 0 no Swiper
+            if(slideIndex < 3)swiper.slideTo(slideIndex); // Navegar para o slide correspondente
+        }
+    });
+
+          // Adicionar evento de mudança de slide ao swiper
+    swiper.on("slideChange", function () {
+        var activeSlideIndex = swiper.activeIndex; // Índice do slide ativo
+        var activeItemId = activeSlideIndex + 1; // ID do item da linha do tempo correspondente (começando em 1)
+
+        // Selecionar o item correspondente na linha do tempo
+        timeline.setSelection(activeItemId);
+    });
+
+    timeline.setSelection(1);
+
+    timeline.setOptions({
+        locale: "pt-br",
+        minHeight: 200,
+        maxHeight:200,
+    });
+
+    </script>
 
     <script type="text/javascript">
 
